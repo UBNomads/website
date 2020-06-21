@@ -562,7 +562,7 @@ pre code {
   margin-left: auto;
 }
 /* .container-image {
-  background-image: url(../assets/img/portfolio/2510.jpg);
+  background-image: url(../assets/img/portfolio/better.jpg);
 }  */
 
 @media (min-width: 576px) {
@@ -10021,9 +10021,7 @@ h3 {
     border-color: #dee2e6;
   }
 }
-.page-section {
-  padding: 6rem 0;
-}
+
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
@@ -10161,22 +10159,33 @@ h3 {
     font-size: 1.5em;
   }
 }
-.masthead {
-  padding-top: calc(29rem + 74px);
-  padding-bottom: 6rem;
-  background-image: url(../assets/img/portfolio/2510.jpg);
+/* .masthead { */
+  /* padding-top: calc(29rem + 74px); */
+  /* background-image: url(../assets/img/portfolio/better.jpg);
   width: 100%;
+  height: 100%;
+  padding-top: 66.7%;
   display: inline-block;
   vertical-align: middle;
   background-size: 100%;
-  background-position: 50% 50%;
   background-repeat: no-repeat;
+  text-align:center;
+} */
+
+.test1 {
+  position: relative;
 }
-.masthead #cafe .inner {
-  padding-top: 63.35%; /* height/width of image */
-  display: block;
-  height: 0;
+
+/* Bottom right text */
+.text-block {
+  position: center;
+  text-align:center;
+  background-color: #343a40;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
 
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10191,43 +10200,6 @@ h3 {
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
-/* .masthead .masthead-avatar {
-  width: 15rem;
-} */
-
-/* default screen, non-retina */
-.masthead #cafe { background-image: url(../assets/img/portfolio/2510.jpg); }
-
-@media only screen and (max-width: 320px) {
-    /* Small screen, non-retina */
-    .masthead #cafe { background-image: url(../assets/img/portfolio/2510.jpg); }
-}
-@media
-only screen and (min-resolution: 2dppx) and (max-width: 320px) {
-    /* Small screen, retina */
-    .masthead #cafe { background-image: url(../assets/img/portfolio/2510.jpg); }
-}
-@media only screen and (min-width: 321px) and (max-width: 538px) {
-    /* Medium screen, non-retina */
-    .masthead #cafe { background-image: url(../assets/img/portfolio/2510.jpg); }
-}
-@media
-only screen and (min-resolution: 2dppx) and (min-width: 321px) and (max-width: 538px) {
-    /* Medium screen, retina */
-    .masthead #cafe { background-image: url(../assets/img/portfolio/2510.jpg); }
-}
-@media
-only screen and (min-resolution: 2dppx) and (min-width: 539px) {
-    /* Large screen, retina */
-    .masthead #cafe { background-image: url(../assets/img/portfolio/2510.jpg); }
-}
-
-/* 
-@media (min-width: 992px) {
-  .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
-  } */
 
   .masthead .masthead-heading {
     font-size: 4rem;
@@ -10236,7 +10208,7 @@ only screen and (min-resolution: 2dppx) and (min-width: 539px) {
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
-}
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
