@@ -10200,7 +10200,7 @@ h3 {
 .text-block {
   width: 100%;
   position: absolute;
-  bottom: 25%;
+  bottom: -20%;
   text-align:center;
   color: white;
   z-index: 2;
