@@ -7366,6 +7366,14 @@ button.bg-dark:focus {
           user-select: auto !important;
 }
 
+.pic {
+  padding-bottom: 5px;
+}
+
+.textBilguun{
+  margin-top: 0px;
+}
+
 .user-select-none {
   -webkit-user-select: none !important;
      -moz-user-select: none !important;
